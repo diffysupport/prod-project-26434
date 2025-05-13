@@ -14,7 +14,7 @@ basic:
         - 'artwork-search?keywords=Mark%20Rothko&images=1&f%5B%5D=awtype:107231'
         - "search?keywords=Ginevra%20de'%20Benci%20%5Bobverse%5D&type%5B%5D=artwork"
     monitoring:
-        days: [Mon]
+        days: [Mon, Fri]
         type: weekly
         schedule_time: '11:00 AM'
         schedule_time_zone: America/Los_Angeles
