@@ -1,0 +1,41 @@
+basic:
+    name: 'NGA National Gallery of Art T0'
+    environments:
+        production: 'https://www.nga.gov/'
+        staging: 'https://drupal-test.nga.gov/'
+        development: ''
+    breakpoints:
+        - 425
+        - 768
+        - 1440
+    pages:
+        - /
+        - artle
+        - artvibes-results/Lazy/Groove/Chirp
+        - 'artwork-search?keywords=Mark%20Rothko&images=1&f%5B%5D=awtype:107231'
+        - "search?keywords=Ginevra%20de'%20Benci%20%5Bobverse%5D&type%5B%5D=artwork"
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 40
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: '15'
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
