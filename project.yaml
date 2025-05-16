@@ -5,7 +5,8 @@ basic:
         staging: 'https://drupal-test.nga.gov/'
         development: 'https://drupal-dev.nga.gov'
     breakpoints:
-        - 480
+        - 390
+        - 770
         - 1440
     pages:
         - /
