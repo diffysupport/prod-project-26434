@@ -10,10 +10,16 @@ basic:
         - 1440
     pages:
         - /
-        - artle
-        - artvibes-results/Lazy/Groove/Chirp
-        - 'artwork-search?keywords=Mark%20Rothko&images=1&f%5B%5D=awtype:107231'
-        - "search?keywords=Ginevra%20de'%20Benci%20%5Bobverse%5D&type%5B%5D=artwork"
+        - /artle
+        - /artvibes
+        - /artvibes-results/Lazy/Groove/Chirp
+        - /artwork-search
+        - '/artwork-search?keywords=Mark%20Rothko&images=1&f%5B%5D=awtype:107231'
+        - /search
+        - "/search?keywords=Ginevra%20de'%20Benci%20%5Bobverse%5D&type%5B%5D=artwork"
+        - /our-artworks/free-images-and-open-access
+        - /visit
+        - /exhibitions/paris-1874-impressionist-moment
     monitoring:
         days: [Mon, Fri]
         type: weekly
