@@ -4,6 +4,10 @@ basic:
         production: 'https://www.nga.gov/'
         staging: 'https://drupal-test.nga.gov/'
         development: 'https://drupal-dev.nga.gov'
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: admin, password: ngaRules }
+        development: { user: admin, password: ngaRules }
     breakpoints:
         - 390
         - 770
@@ -42,6 +46,7 @@ advanced:
     sensitivity: 30
     night_mode: false
     retina_images: false
+    single_ip: false
     login:
         type: none
         click_element: false
@@ -59,5 +64,3 @@ advanced:
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
-proxy: false
-type: single-site
