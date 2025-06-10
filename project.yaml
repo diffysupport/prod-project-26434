@@ -27,7 +27,7 @@ basic:
     monitoring:
         days: [Mon, Fri, Tue, Wed, Thu]
         type: weekly
-        schedule_time: '11:00 AM'
+        schedule_time: '04:00 AM'
         schedule_time_zone: America/Los_Angeles
         compare_with: last-production
         compare_with_fresh: production
