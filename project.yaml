@@ -34,7 +34,7 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    delay: 40
+    delay: 60
     scroll: true
     headers:
         - { header: '', value: '' }
