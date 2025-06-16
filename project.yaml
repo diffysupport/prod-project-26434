@@ -5,7 +5,6 @@ basic:
         staging: 'https://drupal-test.nga.gov/'
         development: 'https://drupal-dev.nga.gov'
     basicAuth:
-        production: { user: '', password: '' }
         staging: { user: admin, password: ngaRules }
         development: { user: admin, password: ngaRules }
     breakpoints:
@@ -36,13 +35,11 @@ advanced:
     remove: ''
     delay: 60
     scroll: true
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: {  }
     sensitivity: 30
     night_mode: false
     retina_images: false
